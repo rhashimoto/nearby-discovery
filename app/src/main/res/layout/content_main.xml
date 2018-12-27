@@ -14,7 +14,7 @@
     android:layout_marginStart="8dp"
     android:layout_marginTop="8dp"
     android:layout_marginEnd="8dp"
-    android:text="Activate Nearby"
+    android:text="@string/activate_nearby_label"
     android:textAllCaps="false"
     android:textSize="18sp"
     app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
     android:layout_marginTop="24dp"
-    android:text="Nearby Name:"
+    android:text="@string/nearby_name_label"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/activateNearby" />
 
@@ -46,11 +46,10 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
     android:layout_marginTop="24dp"
-    android:text="Discovered peers"
+    android:text="@string/discovered_peers_label"
     android:textSize="18sp"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView3"
-    tools:layout_editor_absoluteY="101dp" />
+    app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
   <ScrollView
     android:layout_width="0dp"
